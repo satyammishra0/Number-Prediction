@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Number Prediction</title>
+
+    <!-- -------------------------------- -->
+    <!--  Important metas-->
+    <!-- -------------------------------- -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Number Prediction" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Satyam Mishra" />
+
+    <!-- -------------------------------- -->
+    <!--  Google font link-->
+    <!-- -------------------------------- -->
+
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- -------------------------------- -->
+    <!--  Styling css Sheet -->
+    <!-- -------------------------------- -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- -------------------------------- -->
+    <!--  Main section -->
+    <!-- -------------------------------- -->
+    <section class="container grid-center" id="container">
+      <div class="box" id="box">
+        <h2>Number Prediction</h2>
+        <p class="text">
+          If the user types negative numbers, show "enter a positive value".
+          <br />
+          If the user types an even number, show the next 3 even numbers.
+          <br />
+          If the user types an odd number, show the next 3 odd numbers.
+        </p>
+        <label for="input">Please enter a number</label>
+        <br />
+        <input type="number" id="input" />
+        <p class="" id="hiddenText" class="hiddenText"></p>
+      </div>
+    </section>
+    <!-- -------------------------------- -->
+    <!--  JavaScript here -->
+    <!-- -------------------------------- -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
+
+<!-- onkeyup="track()" -->
